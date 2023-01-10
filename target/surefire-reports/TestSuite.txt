@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 12, Time elapsed: 46.351 s <<< FAILURE! - in TestSuite
+com.flipkart.testCases.AboutUsPage.ValidateContactUs  Time elapsed: 0.076 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/flipkart/Pages/LoginAlertDialogBox
+	at com.flipkart.testCases.AboutUsPage.ValidateContactUs(AboutUsPage.java:26)
+Caused by: java.lang.ClassNotFoundException: com.flipkart.Pages.LoginAlertDialogBox
+	at com.flipkart.testCases.AboutUsPage.ValidateContactUs(AboutUsPage.java:26)
+
+com.flipkart.testCases.AboutUsPage.tearDown[[TestResult name=ValidateContactUs status=FAILURE method=AboutUsPage.ValidateContactUs()[pri:1, instance:com.flipkart.testCases.AboutUsPage@c05fddc] output={null}]](0)  Time elapsed: 0.112 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-D79K1N3', ip: '192.168.111.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56b41b99e23292e6cb1d5105d931e603, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\VIKASH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57504/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56b41b99e23292e6cb1d5105d931e603
+

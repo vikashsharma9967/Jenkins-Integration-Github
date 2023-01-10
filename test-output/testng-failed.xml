@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.flipkart.testCases.Footer_content_HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Validating_Advertise_link" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.Footer_content_HomePage -->
+      <class name="com.flipkart.testCases.Become_a_Seller_Page_HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Validating_Become_A_Seller_registration_form"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.Become_a_Seller_Page_HomePage -->
+      <class name="com.flipkart.testCases.TravelPage">
+        <methods>
+          <include name="setup"/>
+          <include name="ValidateTravelPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.TravelPage -->
+      <class name="com.flipkart.testCases.AppliancesItems">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="TestAppliancesItemsAirconditioner"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.AppliancesItems -->
+      <class name="com.flipkart.testCases.HelpUsPage">
+        <methods>
+          <include name="ValidatePaymentLink" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="ValidateFAQLink"/>
+          <include name="ValidateShippingLink"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.HelpUsPage -->
+      <class name="com.flipkart.testCases.GroceryPage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Grocery" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.GroceryPage -->
+      <class name="com.flipkart.testCases.Carousel_HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Validating_Carousel_Button_HomePage"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.Carousel_HomePage -->
+      <class name="com.flipkart.testCases.Login_page">
+        <methods>
+          <include name="setup"/>
+          <include name="Validating_Registering" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.Login_page -->
+      <class name="com.flipkart.testCases.Search_bar_HomePage">
+        <methods>
+          <include name="setup"/>
+          <include name="Test_Search"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.flipkart.testCases.Search_bar_HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

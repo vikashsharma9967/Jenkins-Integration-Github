@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.flipkart.testCases.Become_a_Seller_Page_HomePage"/>
+      <class name="com.flipkart.testCases.TopOffers"/>
+      <class name="com.flipkart.testCases.Cart_icon_HomePage"/>
+      <class name="com.flipkart.testCases.Search_bar_HomePage"/>
+      <class name="com.flipkart.testCases.PolicyPage"/>
+      <class name="com.flipkart.testCases.TravelPage"/>
+      <class name="com.flipkart.testCases.AppliancesItems"/>
+      <class name="com.flipkart.testCases.More_option_HomePage"/>
+      <class name="com.flipkart.testCases.Flipkart_Explore_Plus"/>
+      <class name="com.flipkart.testCases.AboutUsPage"/>
+      <class name="com.flipkart.testCases.Login_page"/>
+      <class name="com.flipkart.testCases.Footer_content_HomePage"/>
+      <class name="com.flipkart.testCases.Carousel_HomePage"/>
+      <class name="com.flipkart.testCases.GroceryPage"/>
+      <class name="com.flipkart.testCases.HelpUsPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

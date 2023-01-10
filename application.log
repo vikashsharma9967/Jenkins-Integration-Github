@@ -1,0 +1,282 @@
+2023-01-10 15:37:52,689  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:38:28,244 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-01-10 15:38:28,247 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-01-10 15:38:28,248 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-01-10 15:38:28,252 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@23382f76
+2023-01-10 15:38:28,264 DEBUG [main] PlatformDependent0:495 - -Dio.netty.noUnsafe: false
+2023-01-10 15:38:28,265 DEBUG [main] PlatformDependent0:998 - Java version: 11
+2023-01-10 15:38:28,265 DEBUG [main] PlatformDependent0:136 - sun.misc.Unsafe.theUnsafe: available
+2023-01-10 15:38:28,266 DEBUG [main] PlatformDependent0:160 - sun.misc.Unsafe.copyMemory: available
+2023-01-10 15:38:28,266 DEBUG [main] PlatformDependent0:192 - sun.misc.Unsafe.storeFence: available
+2023-01-10 15:38:28,267 DEBUG [main] PlatformDependent0:235 - java.nio.Buffer.address: available
+2023-01-10 15:38:28,268 DEBUG [main] PlatformDependent0:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-01-10 15:38:28,268 DEBUG [main] PlatformDependent0:384 - java.nio.Bits.unaligned: available, true
+2023-01-10 15:38:28,270 DEBUG [main] PlatformDependent0:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2b43529a
+2023-01-10 15:38:28,271 DEBUG [main] PlatformDependent0:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-01-10 15:38:28,271 DEBUG [main] PlatformDependent:1120 - sun.misc.Unsafe: available
+2023-01-10 15:38:28,282 DEBUG [main] PlatformDependent:1231 - maxDirectMemory: 4137680896 bytes (maybe)
+2023-01-10 15:38:28,283 DEBUG [main] PlatformDependent:1250 - -Dio.netty.tmpdir: C:\Users\VIKASH~1\AppData\Local\Temp (java.io.tmpdir)
+2023-01-10 15:38:28,283 DEBUG [main] PlatformDependent:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-01-10 15:38:28,284 DEBUG [main] PlatformDependent:1080 - Platform: Windows
+2023-01-10 15:38:28,285 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-01-10 15:38:28,285 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-01-10 15:38:28,286 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-01-10 15:38:28,287 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-01-10 15:38:28,292 DEBUG [main] PlatformDependent:971 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-01-10 15:38:28,305 DEBUG [main] InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-01-10 15:38:28,305 DEBUG [main] InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-01-10 15:38:28,324 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2023-01-10 15:38:28,325 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-01-10 15:38:28,342 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2023-01-10 15:38:28,349 DEBUG [main] NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2023-01-10 15:38:28,349 DEBUG [main] NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-01-10 15:38:28,381 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2023-01-10 15:38:28,381 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2023-01-10 15:38:28,381 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-01-10 15:38:28,382 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-01-10 15:38:28,383 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-01-10 15:38:28,383 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-01-10 15:38:28,383 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-01-10 15:38:28,393 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-01-10 15:38:28,394 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-01-10 15:38:28,394 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-01-10 15:38:29,122 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 19832 (auto-detected)
+2023-01-10 15:38:29,124 DEBUG [Forwarding newSession on session null to remote] NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2023-01-10 15:38:29,125 DEBUG [Forwarding newSession on session null to remote] NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2023-01-10 15:38:29,219 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-01-10 15:38:29,221 DEBUG [Forwarding newSession on session null to remote] NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-01-10 15:38:29,320 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 20:c1:9b:ff:fe:56:b0:0d (auto-detected)
+2023-01-10 15:38:29,360 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-01-10 15:38:29,362 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-01-10 15:38:29,362 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2d7c86d0
+2023-01-10 15:38:29,383 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-01-10 15:38:29,383 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-01-10 15:38:29,383 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-01-10 15:38:29,383 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-01-10 15:38:29,947 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-01-10 15:38:30,029 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x51f8901d8db47c6d
+2023-01-10 15:38:30,268  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:38:50,832  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:39:09,254 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:39:09,255 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:39:09,258 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:39:09,260 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:39:09,261 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:39:09,555  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:39:10,246  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:39:11,538  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:39:29,767  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:39:30,502 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:39:30,502 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:39:30,502 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:39:30,503 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:39:30,503 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:39:30,545  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:39:31,324  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:39:32,614  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:39:58,936  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:39:59,094 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:39:59,095 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:39:59,096 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:39:59,097 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:39:59,097 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:39:59,118  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:39:59,813  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:40:01,111  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:40:19,832  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:40:20,100  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:40:20,450 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:40:20,451 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:40:20,452 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:40:20,452 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:40:20,453 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:40:20,477  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:40:21,155  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:40:22,468  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:40:43,779  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:40:48,111 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:40:48,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:40:48,111 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:40:48,113 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:40:48,113 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:40:48,135  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:40:48,780  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:40:50,070  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:41:08,071  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:41:09,027 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:41:09,028 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:41:09,028 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:41:09,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:41:09,029 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:41:09,051  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:41:09,712  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:41:10,997  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:41:35,985  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:41:36,908 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:41:36,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:41:36,909 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:41:36,910 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:41:36,910 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:41:36,931  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:41:37,614  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:41:38,869  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:42:37,657  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:42:38,862 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:42:38,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:42:38,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:42:38,863 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:42:38,863 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:42:38,887  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:42:39,573  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:42:40,840  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:42:59,688  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:42:59,867  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:43:00,167 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:43:00,168 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:43:00,168 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:43:00,169 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:43:00,170 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:43:00,187  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:43:00,885  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:43:02,236  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:43:20,673  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:43:23,447 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:43:23,448 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:43:23,448 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:43:23,449 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:43:23,449 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:43:23,466  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:43:24,093  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:43:25,334  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:43:59,156  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:44:03,490  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:44:03,679 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:44:03,680 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:44:03,680 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:44:03,680 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:44:03,681 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:44:03,705  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:44:04,390  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:44:05,653  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:44:46,579  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:44:46,787 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:44:46,788 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:44:46,788 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:44:46,788 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:44:46,788 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:44:46,810  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:44:47,466  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:44:48,702  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:45:23,319  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:45:23,494 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:45:23,494 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:45:23,495 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:45:23,496 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:45:23,496 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:45:23,515  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:45:24,180  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:45:25,509  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:45:55,732  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:45:57,809 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:45:57,810 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:45:57,810 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:45:57,812 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:45:57,813 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:45:57,834  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:45:58,498  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:45:59,747  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:46:30,532  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:46:31,039 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:46:31,039 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:46:31,040 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:46:31,041 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:46:31,041 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:46:31,059  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:46:31,726  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:46:32,986  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:47:05,439  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:47:06,143 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:47:06,144 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:47:06,145 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:47:06,146 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:47:06,146 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:47:06,169  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:47:06,854  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:47:08,188  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:47:38,579  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:47:40,121 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:47:40,122 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:47:40,123 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:47:40,124 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:47:40,124 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:47:40,142  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:47:40,791  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:47:42,038  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:48:12,488  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:48:13,888 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:48:13,889 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:48:13,890 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:48:13,890 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:48:13,890 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:48:13,908  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:48:14,738  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:48:15,999  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:48:47,544  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:48:55,970 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:48:55,971 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:48:55,972 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:48:55,972 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:48:55,973 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:48:55,999  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:48:56,733  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:48:58,018  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:49:29,374  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:50:47,991 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:50:47,991 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:50:47,993 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:50:47,994 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:50:47,994 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:50:48,019  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:50:48,794  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:50:50,050  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:51:22,221  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:51:22,984 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:51:22,985 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:51:22,985 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:51:22,985 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:51:22,985 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:51:23,003  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:51:23,714  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:51:25,052  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:51:57,651  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:51:57,923 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2023-01-10 15:51:57,924 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2023-01-10 15:51:57,925 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-10 15:51:57,926 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-10 15:51:57,926 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/vikashsharma03/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-10 15:51:57,944  INFO [main] BasePage:114 - Closing the Driver
+2023-01-10 15:51:58,642  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:51:59,940  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:52:27,291  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:52:27,321  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:52:27,384  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:52:28,578  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:52:30,148  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:52:30,178  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:52:30,188  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:52:31,467  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:52:32,653  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:52:32,666  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:52:32,736  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:52:33,961  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:52:35,234  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:52:35,254  INFO [main] BasePage:108 - Taking screen shot of failed test cases
+2023-01-10 15:52:35,315  INFO [main] BasePage:57 - Opening chrome browser.
+2023-01-10 15:52:36,563  INFO [main] BasePage:87 - Geting url to open
+2023-01-10 15:52:37,645  INFO [main] BasePage:90 - Getting Test method name Test scenario
+2023-01-10 15:52:37,666  INFO [main] BasePage:108 - Taking screen shot of failed test cases
